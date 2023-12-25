@@ -14,7 +14,7 @@ const Contact = () => {
 
                 <p>GMAIL : <a href="mailto:renohar1996@gmail.com" >renohar1996@gmail.com</a> </p>
 
-                <p>Mobile : <a href="tel:904213818">9042138918</a> </p>
+                <p>Mobile : <a href="tel:9042138198">9042138198</a> </p>
 
 
             </div>
