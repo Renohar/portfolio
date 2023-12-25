@@ -1,0 +1,374 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+  h1,h2,h3,h4,h5,h6,p,div,span{
+    font-family: 'Poppins', sans-serif !important;
+  }
+
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Header */
+
+header{
+    background-color: #efefef;
+    box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 100px;
+}
+
+@media (max-width : 576px){
+    header{
+        padding-right: 30px;
+    }
+}
+
+header a{
+    color: #000;
+}
+
+header svg{
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+header ul{
+    margin: 0px;
+    padding-left: 0px;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    gap: 25px;
+    justify-content: flex-end;
+    /* padding-right: 100px; */
+}
+
+header ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+
+
+header ul li{
+    padding: 20px;
+}
+
+
+/* Footer */
+
+footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+}
+
+footer p{
+    background-color: #efefef;
+    box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.2);
+
+    margin: 0;
+    padding: 15px 100px 15px 15px;
+  
+    text-align: end;
+    font-size: 16px;
+}
+
+/* Home */
+
+.home{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    height: 85vh;
+}
+
+.home .left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.home .right > div{
+    height: 100%;
+}
+
+.home .right > div svg{
+    width: 100% !important;
+    max-width: 400px !important;
+}
+
+.home .left .top h1, .home .left .top h2{
+    margin: 5px;
+    margin-left: 0px;
+    font-size: 2rem;
+}
+
+.home .left .top h2 span{
+    color: lightsalmon;
+}
+
+.home .left .top h2:nth-child(3){
+    font-size: 1.5rem;
+}
+
+@media (min-width : 991px){
+    .home .left .top p{
+        max-width: 600px;
+
+    }
+}
+
+.home .skill-container{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.home .skill{
+    display: flex; 
+    width: 25%;
+       
+}
+
+.home .skill img{
+    width: 20px;
+    padding-right: 10px;
+    align-self: center;
+}
+
+
+/* Projects */
+
+.projects{
+    display: flex;
+    justify-content: space-around;
+    height: 85vh;
+}
+
+.projects .left {
+    width: 50%;
+}
+
+.projects .right{
+width: 50%;
+}
+
+.projects .left  > div{
+    height: 100%;
+}
+
+.projects .left svg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px !important;
+    width: 100% !important;
+    margin: auto;
+}
+
+.projects .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start
+}
+
+.projects .right .projects-container{
+display: flex;
+width: 75%;
+flex-wrap: wrap;
+justify-content: space-between;
+
+}
+
+
+
+.projects .right  a{
+    padding: 30px 20px;
+
+width: 40%;
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+border-radius: 6px;
+margin-bottom: 30px;
+    text-decoration: none;
+   
+
+    color: #000;
+    font-weight: 500;
+}
+
+.projects .right a:hover{
+    background-color: lightsalmon;
+}
+
+
+/* Contact */
+
+.contact {
+    display: flex;
+    height: 90vh;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.contact .left{
+    width : 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact .left p{
+    font-weight: 500;
+}
+
+.contact .left p a{
+    font-weight: 400;
+    color: #000;
+}
+
+
+.contact .right{
+    width : 50%;
+}
+
+.contact .right >div {
+    height: 100%;
+    text-align: center;
+}
+
+.contact .right > div svg{
+    max-width: 300px !important;
+    width: 100% !important;
+    
+}
+
+@media (max-width : 1024px){
+
+    footer{
+        position: relative;
+    }
+
+    .projects,.home, .contact{
+        flex-direction: column;
+        padding: 40px 20px;
+        height: 100%;
+    }
+    .home .left, .projects .left, .contact .left{
+        width: 100%;
+    }
+    .home .right, .projects .right, .contact .right{
+        width: 100%;
+    }
+
+    .home .skill{
+        width: 40%;
+    }
+
+    .projects .right .projects-container{
+        width: 100%;
+    }
+    .projects .right a{
+        width: 35%;
+        margin-bottom: 20px;
+    }
+
+    .projects .left{
+        order: 2;
+    }
+    .contact .right >div{
+        text-align: left;
+    }
+}
+
+
+/* Open Close */
+
+.open_close{
+    padding: 15px 0;
+}
+
+.open_close svg{
+    font-size: 25px;
+}
+
+@media (max-width : 1024px){
+    header nav{
+        display: none;
+    }
+}
+
+
+@media(min-width : 1024px){
+    .open_close svg{
+        display: none;
+    }
+}
+
+
+header .navclass{
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 99;
+        left: 0;
+        top: 0;
+}
+
+header .navclass ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    background: #000;
+    opacity: 0.9;
+}
+
+
+header .navclass ul a{
+    font-size: 25px;
+    color: #fff;
+}
+
+.open_close_new svg{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 99;
+    color: #fff;
+}
+
+header svg{
+    cursor: pointer;
+}
+
+.Resume{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: lightsalmon;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    max-width: 250px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.Resume:hover{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 6px 10px;
+    
+}
