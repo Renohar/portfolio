@@ -11,6 +11,8 @@ import Sass from "../images/sass.webp"
 
 import Lottie from "lottie-react"
 
+import PDF from "../images/Renohar_SK_Resume.pdf"
+
 const Home = () => {
     return (
         <section className="home">
@@ -22,7 +24,7 @@ const Home = () => {
                 <h2>Web Developer</h2>
                 <p>Looking to be a part of an environment where I can leverage my existing expertise in constructing static web pages. Eager to learn and elevate my skills as a front-end developer while actively contributing to the development of dynamic web pages. </p>
 
-                <a className="Resume" href="https://rreact-redux-blog.netlify.app/" target="_blank" rel="noreferrer">Download Resume</a>
+                <a className="Resume" href={PDF} target="_blank" rel="noreferrer">Download Resume</a>
                 </div>
 
                 <div className="bottom">
