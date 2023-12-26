@@ -16,6 +16,14 @@ const Contact = () => {
 
                 <p>Mobile : <a href="tel:9042138198">9042138198</a> </p>
 
+                <h2>Certifications</h2>
+                
+                <a rel="noreferrer"  href="https://www.freecodecamp.org/certification/renohar/responsive-web-design" target="_blank">https://www.freecodecamp.org/certification/renohar/responsive-web-design</a>
+
+                <br></br>
+
+                <a rel="noreferrer"  target="_blank" href="https://www.freecodecamp.org/certification/renohar/javascript-algorithms-and-data-structures">https://www.freecodecamp.org/certification/renohar/javascript-algorithms-and-data-structures</a>
+
 
             </div>
             <div className="right">

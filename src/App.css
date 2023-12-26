@@ -372,3 +372,11 @@ header svg{
     box-shadow: rgba(0, 0, 0, 0.2) 0px 6px 10px;
     
 }
+
+.contact .left a{
+    color: #000;
+}
+
+.contact .left a:hover{
+    color: lightsalmon;
+}
