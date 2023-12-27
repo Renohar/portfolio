@@ -116,7 +116,7 @@ footer p{
 }
 
 .home .left .top h2:nth-child(3){
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 @media (min-width : 991px){
@@ -375,6 +375,12 @@ header svg{
 
 .contact .left a{
     color: #000;
+   
+}
+@media(max-width : 1024px){
+    .contact .left a{
+        word-wrap: break-word;
+    }
 }
 
 .contact .left a:hover{

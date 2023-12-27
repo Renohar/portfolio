@@ -21,7 +21,7 @@ const Home = () => {
                 <div className="top">
                 <h1>Hi</h1>
                 <h2>I am <span>Renohar SK</span></h2>
-                <h2>Web Developer</h2>
+                <h2>Frontend Developer</h2>
                 <p>Looking to be a part of an environment where I can leverage my existing expertise in constructing static web pages. Eager to learn and elevate my skills as a front-end developer while actively contributing to the development of dynamic web pages. </p>
 
                 <a className="Resume" href={PDF} target="_blank" rel="noreferrer">Download Resume</a>
