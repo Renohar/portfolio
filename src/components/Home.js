@@ -9,6 +9,12 @@ import Bootstrap from "../images/Bootstrap.webp"
 import Wordpress from "../images/Wordpress.webp"
 import Sass from "../images/sass.webp"
 
+import git from "../images/git_logo.webp"
+import python from "../images/python_logo.webp"
+import postgreSQL from "../images/postgreSQL_logo.webp"
+
+import linux from "../images/linux.webp"
+
 import Lottie from "lottie-react"
 
 import PDF from "../images/Renohar_SK_Resume.pdf"
@@ -57,6 +63,22 @@ const Home = () => {
                         </div>
 
                         <div className="skill">
+                            <img src={git} alt="git" />
+                            <p>Git</p>
+                        </div>
+
+                        <div className="skill">
+                            <img src={postgreSQL} alt="PostgreSQL" />
+                            <p>PostgreSQL</p>
+                        </div>
+
+                        <div className="skill">
+                            <img src={python} alt="python" />
+                            <p>Python</p>
+                        </div>
+
+
+                        <div className="skill">
                             <img src={Bootstrap} alt="Bootstrap" />
                             <p>Bootstrap</p>
                         </div>
@@ -70,6 +92,13 @@ const Home = () => {
                             <img src={Wordpress} alt="Wordpress" />
                             <p>Wordpress</p>
                         </div>
+
+                        <div className="skill">
+                            <img src={linux} alt="Linux" />
+                            <p>Linux</p>
+                        </div>
+
+                        
 
                     </div>
                 </div>
