@@ -8,6 +8,8 @@ import Redux from "../images/redux.webp"
 import Bootstrap from "../images/Bootstrap.webp"
 import Wordpress from "../images/Wordpress.webp"
 import Sass from "../images/sass.webp"
+import java from "../images/java_logo.webp"
+import spring from "../images/spring_boot_logo.webp"
 
 import git from "../images/git_logo.webp"
 import python from "../images/python_logo.webp"
@@ -25,10 +27,10 @@ const Home = () => {
             <div className="left">
 
                 <div className="top">
-                <h1>Hi</h1>
+                <h1>Hello</h1>
                 <h2>I am <span>Renohar SK</span></h2>
-                <h2>Frontend Developer</h2>
-                <p>Looking to be a part of an environment where I can leverage my existing expertise in constructing static web pages. Eager to learn and elevate my skills as a front-end developer while actively contributing to the development of dynamic web pages. </p>
+                <h2>Web Developer</h2>
+                <p>Looking to be a part of an environment where I can leverage my existing expertise in constructing static web pages. Eager to learn and elevate my skills as a Fullstack developer while actively contributing to the development of dynamic web pages. </p>
 
                 <a className="Resume" href={PDF} target="_blank" rel="noreferrer">Download Resume</a>
                 </div>
@@ -63,19 +65,23 @@ const Home = () => {
                         </div>
 
                         <div className="skill">
-                            <img src={git} alt="git" />
-                            <p>Git</p>
+                            <img src={java} alt="Java" />
+                            <p>Java</p>
                         </div>
+
+                        <div className="skill">
+                            <img src={spring} alt="Spring Boot" />
+                            <p>Spring Boot</p>
+                        </div>
+
+                        
 
                         <div className="skill">
                             <img src={postgreSQL} alt="PostgreSQL" />
                             <p>PostgreSQL</p>
                         </div>
 
-                        <div className="skill">
-                            <img src={python} alt="python" />
-                            <p>Python</p>
-                        </div>
+                        
 
 
                         <div className="skill">
@@ -112,3 +118,8 @@ const Home = () => {
 }
 
 export default Home
+
+
+
+
+
