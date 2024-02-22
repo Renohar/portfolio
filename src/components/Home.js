@@ -16,6 +16,8 @@ import python from "../images/python_logo.webp"
 import postgreSQL from "../images/postgreSQL_logo.webp"
 
 import linux from "../images/linux.webp"
+import NodeJs from "../images/NodeJs.webp"
+import ExpressJs from "../images/ExpressJs.webp"
 
 import Lottie from "lottie-react"
 
@@ -65,6 +67,16 @@ const Home = () => {
                         </div>
 
                         <div className="skill">
+                            <img src={NodeJs} alt="NodeJs" />
+                            <p>NodeJS</p>
+                        </div>
+
+                        <div className="skill">
+                            <img src={ExpressJs} alt="ExpressJs" />
+                            <p>ExpressJS</p>
+                        </div>
+
+                        <div className="skill">
                             <img src={java} alt="Java" />
                             <p>Java</p>
                         </div>
@@ -81,28 +93,19 @@ const Home = () => {
                             <p>PostgreSQL</p>
                         </div>
 
-                        
-
 
                         <div className="skill">
                             <img src={Bootstrap} alt="Bootstrap" />
                             <p>Bootstrap</p>
                         </div>
 
-                        <div className="skill">
-                            <img src={Sass} alt="Sass" />
-                            <p>Sass</p>
-                        </div>
 
                         <div className="skill">
                             <img src={Wordpress} alt="Wordpress" />
                             <p>Wordpress</p>
                         </div>
 
-                        <div className="skill">
-                            <img src={linux} alt="Linux" />
-                            <p>Linux</p>
-                        </div>
+
 
                         
 
